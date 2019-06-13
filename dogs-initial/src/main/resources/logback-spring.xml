@@ -51,26 +51,26 @@
     </root>
 
 
-    <logger name="org.springframework.boot" level="OFF" additivity="false">
+    <logger name="org.springframework.boot" level="ON" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
 
- <logger name="org.apache.catalina" level="OFF" additivity="false">
+ <logger name="org.apache.catalina" level="ON" additivity="false">
         <appender-ref ref="TOMCAT" />
         <appender-ref ref="STDOUT" />
     </logger>
 
-    <logger name="org.apache.coyote" level="OFF" additivity="false">
+    <logger name="org.apache.coyote" level="ON" additivity="false">
         <appender-ref ref="TOMCAT" />
         <appender-ref ref="STDOUT" />
     </logger>
 
-    <logger name="org.apache.tomcat" level="OFF" additivity="false">
+    <logger name="org.apache.tomcat" level="ON" additivity="false">
         <appender-ref ref="TOMCAT" />
         <appender-ref ref="STDOUT" />
     </logger>
 
-    <logger name="com.lambdaschool.webemployees" level="TRACE" additivity="false">
+    <logger name="com.lambdaschool.dogsinitial" level="TRACE" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
 </configuration>
